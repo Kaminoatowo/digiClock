@@ -1,0 +1,53 @@
+/* element rules */
+
+body {
+    background-color: gray;
+    margin: auto;
+    padding-top: 30px;
+    width: 90%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* class rules */
+
+.column {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* id rules */
+
+#today, #now {
+    background: radial-gradient(circle, white 0%, lightgray 35%, gray 100%);
+    border-radius: 0%;
+    font-size: 48px;
+    height: 150px;
+    text-align: center;
+    width: 600px;
+    /* center */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* @media rules */
